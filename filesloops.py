@@ -5,10 +5,8 @@ names = f.read()
 #Convert The String To A List
 names_list = names.split("\n")
 
-
 #Convert The List Of Strings To A List Of Lists
 nested_list =[]
-
 for row in names_list:
 	comma_list= row.split(",")
 	nested_list.append(comma_list)
